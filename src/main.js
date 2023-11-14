@@ -1,8 +1,8 @@
-import './css/index.scss'
-import './js/resize'
-import './js/index'
+import { createApp } from 'vue';
+import App from './App.vue';
 
-console.log('zzz');
-function onAlert() {
-    alert('哈哈镜')
-}
+const app = createApp(App);
+
+// todo: 注册组件
+
+app.mount('#app');

@@ -11,9 +11,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vant/auto-import-resolver": "^1.0.2",
+    "@vitejs/plugin-vue": "^4.4.1",
     "autoprefixer": "^10.4.16",
+    "lib-flexible": "^0.3.2",
     "postcss-pxtorem": "^6.0.0",
     "sass": "^1.69.4",
+    "unplugin-vue-components": "^0.25.2",
     "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "vant": "^4.7.3",
+    "vue": "^3.3.8"
   }
 }
