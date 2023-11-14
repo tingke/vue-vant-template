@@ -1,0 +1,19 @@
+{
+  "name": "h5-template",
+  "version": "1.0.0",
+  "description": "一款快速h5开发的基础框架",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss-pxtorem": "^6.0.0",
+    "sass": "^1.69.4",
+    "vite": "^4.5.0"
+  }
+}

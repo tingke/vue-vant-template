@@ -1,0 +1,30 @@
+@import "./base.css";
+@import "./mixin.scss";
+
+// 运营活动页面需要
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    height: 100vh;
+    font-size: 14px;
+    font-family: -apple-system, Helvetica, "Microsoft YaHei", Arial, sans-serif;
+    line-height: 1.5;
+    color: #666;
+    text-size-adjust: 100% !important;
+    user-select: none;
+    background-color: #f8f8f8;
+}
+
+/**
+   * 状态类
+   */
+.hide {
+    display: none !important;
+}
