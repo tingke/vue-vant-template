@@ -7,3 +7,7 @@
 - 支持 Sass、Less 和 Stylus 样式预处理自动编译
 - Autoprefixer 前缀补全
 - px -> rem 自动转换
+
+## 参考
+
+- [vant-demo](https://github.com/vant-ui/vant-demo/tree/master/vant/vite)
